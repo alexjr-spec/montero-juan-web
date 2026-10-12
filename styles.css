@@ -1483,17 +1483,6 @@ p { color: var(--ink-soft); }
 }
 .photo-stat-badge .lbl { font-size: 0.75rem; color: var(--ink-mute); }
 
-/* ── Hero logo derecha ── */
-.hero__logo-right {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-@media (max-width: 900px) {
-  .hero__logo-right { display: none; }
-  .hero .container > div[style*="grid"] { display: block; }
-}
-
 /* ── Responsive utilities ── */
 @media (max-width: 767px) {
   .section { padding-block: 4rem; }
